@@ -9,8 +9,10 @@ A python package that allows you to perform sentiment analysis of comments on an
 
 - using VADER, a rule based model specifically fine tuned for analyzing sentiments in social media texts
 
-for optimization purposes, the number of comments you recievce per API call is set to 100. (The maximum). This can lead to issues where the number of comments you request for is more than you have specified. 
+for optimization purposes, the number of comments you recievce per API call is set to 100. (The maximum). This can lead to issues where the number of comments you actually recieve is more than you have specified. 
 
+#### Why this package?
+Youtube has very few filters for their comments. You often have to scroll very far to see negative comments. Also, since the dislike count has been removed since 2021, you cannot effectively view how well someone's video is doing. With this package you can retrieve up to 12000 comments and separate them into positive, neutral, and negative categories for further analysis.
 ### Installation
 
 To install the current release
@@ -31,3 +33,4 @@ $ python
 ```
 ### License
 [MIT License](LICENSE)
+
