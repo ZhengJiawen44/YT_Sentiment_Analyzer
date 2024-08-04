@@ -1,7 +1,7 @@
 # 👁️‍🗨️ YT comments Analyzer 
 
 ### Description
-A python package that allows you to perform sentiment analysis of comments on any Youtube video. (try it from pip install!)
+A python package that allows you to perform sentiment analysis of comments on any Youtube video. 
 
 - using Google API Client Library to interact with the YouTube Data API to fetch video comments.
 
