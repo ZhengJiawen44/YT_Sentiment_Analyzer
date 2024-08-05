@@ -9,6 +9,7 @@ A python package that allows you to perform sentiment analysis of comments on an
 
 - using VADER, a rule based model specifically fine tuned for analyzing sentiments in social media texts
 
+### Issues
 for optimization purposes, the number of comments you recievce per API call is set to 100. (The maximum). This can lead to issues where the number of comments you actually recieve is more than you have specified. 
 
 >#### Why this package?
