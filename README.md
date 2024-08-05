@@ -1,5 +1,5 @@
 # 👁️‍🗨️ YT comments Analyzer 
-
+[Out on Pypi](https://pypi.org/project/YT-Sentiments/0.0.4/)
 ### Description
 A python package that allows you to perform sentiment analysis of comments on any Youtube video. 
 
@@ -19,7 +19,7 @@ for optimization purposes, the number of comments you recievce per API call is s
 To install the current release
 
 ```
-$ pip install YT_Sentiment
+$ pip install YT-Sentiments==0.0.4
 ```
 *Try your first YT_Sentiment program*
 
