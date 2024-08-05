@@ -1,11 +1,11 @@
 import unittest
-from analyze import analyzer
-from score import sentimentScore
+from sentiment import analyzer
+from helpers import sentimentScore
 class test_analyze(unittest.TestCase):
 
     #assert sum of all comments equals the sum of scores in polarity
     def test_get_analysis(self):
-        obj = analyzer(api = "YOUR_API_KEY_HERE", video_link = "https://www.youtube.com/watch?v=hql6doE-Ccw", limit=100)
+        obj = analyzer(api = input("please enter your Youtube API_KEY: "), video_link = "https://www.youtube.com/watch?v=hql6doE-Ccw", limit=100)
         result = obj.get_analysis()
         sum = len(result[0])+len(result[1])+len(result[2])
         self.assertEqual(sum, len(result[3]))
