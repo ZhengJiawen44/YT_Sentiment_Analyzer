@@ -32,7 +32,7 @@ $ python
 >>> obj.get_analysis()
 >>> <class 'list'>
 ```
-#### Documentation
+
 # YT_Sentiments Documentation
 
 ## `analyzer` Class
