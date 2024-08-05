@@ -25,4 +25,4 @@ dependencies = [
 ]
 [project.urls]
 Homepage = "https://github.com/ZhengJiawen44/YT_Sentiment_Analyzer"
-Issues = "https://github.com/ZhengJiawen44/YT_Sentiment_Analyzer/README.md"
+Issues = "https://github.com/ZhengJiawen44/YT_Sentiment_Analyzer/blob/main/README.md"
