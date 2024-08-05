@@ -1,0 +1,1 @@
+one API call using the youtube.commentThreads.list() function costs 1 unit. each call returns 100 comments. according to the (youtube Quota website)[https://developers.google.com/youtube/v3/determine_quota_cost], one API has 10,000 free quotas by default. This means you can theoretically perform sentiment analysis on 1,000,000 youtube comments. 
