@@ -27,9 +27,9 @@ $ pip install YT_Sentiment
 $ python
 ```
 ```python
->>> import YT_Sentiment as yts
->>> analyzer = yts("API_KEY", "VIDEO_LINK", 600)
->>> analyzer.get_analysis()
+>>> from YT_Sentiments.sentiment import analyzer
+>>> obj = analyzer("API_KEY", "VIDEO_LINK", 100)
+>>> obj.get_analysis()
 >>> <class 'list'>
 ```
 ### License
