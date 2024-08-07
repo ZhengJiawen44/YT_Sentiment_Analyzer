@@ -1,7 +1,7 @@
 #  YT comments Analyzer
  
-# Version 0.0.5 Changelog
-- added helper funciton to return video title
+# Version 0.0.6 Changelog
+- added helper funciton to return video title, and raw pre-processed comments
 - general bug fixes
 
 ### Description

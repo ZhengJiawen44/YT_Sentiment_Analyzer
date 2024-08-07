@@ -23,10 +23,11 @@ class analyzer:
             self.negative = []
             self.neutral = []
             self.polarityList = []
+            self.comments = []
             self.videoTitle = ""
             result = ytComments.getComments(self.LINK, self.API_KEY, self.LIMIT)
             self.videoTitle = result[1]
-
+            self.comments = result[0]
             for items in result[0]:
                 polarity = sentimentScore.getSentimentScore(items)
                 self.polarityList.append(polarity)
@@ -95,5 +96,8 @@ class analyzer:
         a string obj.
         """
         return self.videoTitle
+    
+    def get_raw_comments(self):
+        return self.comments
 
 
