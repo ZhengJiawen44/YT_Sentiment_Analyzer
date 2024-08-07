@@ -27,6 +27,7 @@ def getComments(LINK, API_KEY, LIMIT):
 
     # Splitting the response for channelID
     video_snippet = video_response['items'][0]['snippet']
+    video_title = video_response['items'][0]['snippet']['title']
     uploader_channel_id = video_snippet['channelId']
 
     # Fetch comments
@@ -73,4 +74,5 @@ def getComments(LINK, API_KEY, LIMIT):
             if emojis == 0 or (text_characters / (text_characters + emojis)) > threshold_ratio:
                 relevant_comments.append(comment_text)
 
-    return relevant_comments
+
+    return [relevant_comments,video_title]

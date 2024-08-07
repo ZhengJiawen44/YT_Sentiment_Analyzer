@@ -4,7 +4,7 @@ with open("README.md") as f:
     long_description = f.read()
 
 setup(name = "YT_Sentiments",
-      version = "0.0.4",
+      version = "0.0.5",
       description = "analyze up to 12000 comments from any youtube video!",
       package_dir = {"":"src"},
       packages = find_packages(where="src"),

@@ -23,8 +23,11 @@ class analyzer:
             self.negative = []
             self.neutral = []
             self.polarityList = []
-            relevant_comments = ytComments.getComments(self.LINK, self.API_KEY, self.LIMIT)
-            for items in relevant_comments:
+            self.videoTitle = ""
+            result = ytComments.getComments(self.LINK, self.API_KEY, self.LIMIT)
+            self.videoTitle = result[1]
+
+            for items in result[0]:
                 polarity = sentimentScore.getSentimentScore(items)
                 self.polarityList.append(polarity)
                 if polarity["compound"] > 0.05:
@@ -33,7 +36,6 @@ class analyzer:
                     self.negative.append(items)
                 else:
                     self.neutral.append(items)
-            
     def get_analysis(self):
         """
         Simply call this on the analyzer object to get a list of comprehensive results.
@@ -84,4 +86,14 @@ class analyzer:
         list[dict] 
         """
         return self.polarityList
+    
+    def get_title(self):
+        """
+        Simply call this on the analyzer object to get the video Title.
+
+        Returns:
+        a string obj.
+        """
+        return self.videoTitle
+
 
