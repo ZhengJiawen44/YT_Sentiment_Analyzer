@@ -1,8 +1,10 @@
 <p align="center">
-<img src="image.png" ></img>
+<img src="image.png" alt="Image">
 </p>
+
 [![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg)](https://pypi.org/project/YT-Sentiments/)
 [![PyPI](https://badge.fury.io/py/tensorflow.svg)](https://pypi.org/project/YT-Sentiments/)
+
 # Version 0.0.6 Changelog
 
 - added helper funciton to return video title, and raw pre-processed comments
