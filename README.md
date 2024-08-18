@@ -1,5 +1,5 @@
 
-<img src="image.png" width="80%"></img>
+<img src="image.png" ></img>
 
 <br/>
 <br/>
