@@ -1,5 +1,5 @@
 <p align="center">
-<img src="image.png" alt="Image" width="50%">
+<img src="image.png" alt="Image" width="80%">
 </p>
 
 [![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg)](https://pypi.org/project/YT-Sentiments/)
