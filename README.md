@@ -44,7 +44,7 @@ $ python
 >>> <class 'list'>
 ```
 
-# YT_Sentiments Documentation
+Documentation
 
 ## `analyzer` Class
 
