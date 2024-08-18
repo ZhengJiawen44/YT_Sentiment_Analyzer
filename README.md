@@ -1,4 +1,4 @@
-<img src="image.png" width="80%" align="center"></img>
+<img src="image.png" width="80%" text-align="center"></img>
 <br/>
 <br/>
 <br/>
