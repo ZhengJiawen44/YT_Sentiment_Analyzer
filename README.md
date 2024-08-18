@@ -1,5 +1,6 @@
-
+<p align="center">
 <img src="image.png" ></img>
+</p>
 <br/>
 <br/>
 <br/>
