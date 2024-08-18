@@ -1,6 +1,9 @@
 <p align="center">
 <img src="image.png" alt="Image" width="80%">
 </p>
+<br/>
+<br/>
+<br/>
 
 [![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg)](https://pypi.org/project/YT-Sentiments/)
 [![PyPI](https://badge.fury.io/py/tensorflow.svg)](https://pypi.org/project/YT-Sentiments/)
