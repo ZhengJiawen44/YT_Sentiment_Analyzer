@@ -1,5 +1,5 @@
 # YT comments Analyzer
-
+[![PyPI](https://badge.fury.io/py/tensorflow.svg)](https://badge.fury.io/py/tensorflow)
 # Version 0.0.6 Changelog
 
 - added helper funciton to return video title, and raw pre-processed comments
