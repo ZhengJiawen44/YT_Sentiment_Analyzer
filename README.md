@@ -1,4 +1,5 @@
 # YT comments Analyzer
+[![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg)](https://badge.fury.io/py/tensorflow)
 [![PyPI](https://badge.fury.io/py/tensorflow.svg)](https://badge.fury.io/py/tensorflow)
 # Version 0.0.6 Changelog
 
